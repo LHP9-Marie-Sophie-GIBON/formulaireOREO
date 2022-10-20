@@ -1,23 +1,51 @@
+
 body{
-    background: no-repeat url(OREOwallpaper.jpg);
+    background: no-repeat url(OREOwallpaper.jpg) ;
     background-size: 100%;
     }
     
     header{ 
         position: sticky;
-        top: 0;
-        background: rgba(255,255,255,0.9);
-        border-bottom: 1px solid #ddd;
-        color: #ccc;
-        padding: 2em 0;
-        height: 5%; 
+        height : 10%; 
+        width : 100%; 
+        margin : 1rem 0;
     }
-    .png {
-        width : 15%; 
+    
+h1 {
+    Position : absolute ; 
+    margin : 9rem ; 
+    left : 30% ; 
+}    
+.logo {
+        position : absolute;   
+        padding : 3rem; 
+        left : 24%;
+        width : 23%; 
         height: auto; 
     }
-    .logo {
-        width : 30%; 
-        height: auto; 
+
+.png {
+        position : absolute ; 
+        left : 48%;  
+        width : 8%;
+        height : auto; 
     }
+
+.questionnaire{
+        position: absolute;
+        Top : 30%; 
+        left : 25%; 
+
+        
+        height: 46% ;
+        width: 50% ; 
+        background: rgba(255, 255, 255, 0.699);
+    }
+
+    footer .biscuits{
+        position: absolute;
+        top: 25%;
+        left: 57%;
+        height: 100%;
+    
     
