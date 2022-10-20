@@ -1,0 +1,23 @@
+body{
+    background: no-repeat url(OREOwallpaper.jpg);
+    background-size: 100%;
+    }
+    
+    header{ 
+        position: sticky;
+        top: 0;
+        background: rgba(255,255,255,0.9);
+        border-bottom: 1px solid #ddd;
+        color: #ccc;
+        padding: 2em 0;
+        height: 5%; 
+    }
+    .png {
+        width : 15%; 
+        height: auto; 
+    }
+    .logo {
+        width : 30%; 
+        height: auto; 
+    }
+    

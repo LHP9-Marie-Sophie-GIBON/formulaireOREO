@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/OREO.png">
+  </head>
+<body>
+  <header>
+        <img class="png" src="img/OREO.png" alt="OreoPNG">
+        <img class="logo" src="img/LogoOREO1.png" alt="LogoOREO">
+  </header>
+ <main>
+    <div class="questionnaire">
+     <form method="post" action="" novalidate>
+      <legend>Formulaire d'adhésion</legend> 
+      <fieldset class="id">
+          <div>
+            <label for="Nom">Nom : </label>
+             <input
+               type="text"
+               name="Nom"
+               id="Nom"
+               placeholder="ex DUPONT"
+               required
+               />
+          </div>
+          <div>
+            <label for="Prénom">Prénom : </label>
+             <input
+               type="text"
+               name="Prénom"
+               id="Prénom"
+               placeholder="ex Marie"
+               required
+               />
+          </div>
+          <div>
+            <label for="Adressemail">Adresse mail : </label>
+              <input
+               type="email"
+               name="Adressemail"
+               id="Adressemail"
+               placeholder="exemple@mail.com"
+               required
+              />
+          </div>   
+        </fieldset>
+
+        <fieldset class="autre">
+         <div>
+           <label for="Gourmand">Combien de paquets achetez-vous par mois ? </label>
+            <select name="Gourmand" id="Gourmand" required>
+             <option value="" selected disabled>veuillez saisir une réponse</option>
+             <option value="Homme">1 paquet</option>
+             <option value="Femme">2 paquets</option>
+             <option value="Autre">J'ai arrêté de compter</option></select>  
+          </div>
+
+          <div>
+           <label for="connaissance">Comment avez vous connu notre marque ? </label>
+          </div>
+          <div>
+          <input
+            type="radio"
+            name="connaissance"
+            value="InternetRS"
+            id="InternetRS"
+            required
+          />
+          <label for="InternetRS">Internet et Réseaux sociaux</label> 
+          </div>
+
+          <div>
+          <input
+            type="radio"
+            name="connaissance"
+            value="Publicity"
+            id="Publicity"
+            required
+          />
+          <label for="Publicity">Publicité</label>
+          </div>
+
+          <div>
+          <input
+            type="radio"
+            name="connaissance"
+            value="autre"
+            id="autre"
+            required
+            />
+           <label for="autre">Autre</label>
+           </div>
+         </fieldset>
+
+         <fieldset class="autorisations">
+          <div>
+            <input
+            type="radio"
+            name="exploitation"
+            value="oui"
+            id="oui"
+            required
+        />
+           <label for="exploitation">J'autorise OREO à exploiter mes données</label>
+          </div>
+
+          <div>
+            <input
+            type="radio"
+            name="CGU"
+            value="oui"
+            id="oui"
+            required
+        />
+           <label for="CGU">J'accepte les conditions générales d'utilisation</label>
+          </div>
+         </fieldset> 
+
+
+      
+        <input type="submit" value="J'adhère !" />
+      
+     </form>
+     </div>
+    </main>
+  </body>
+</html>
