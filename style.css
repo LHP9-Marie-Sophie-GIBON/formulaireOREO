@@ -55,7 +55,7 @@ fieldset {
 
 label 
 {
-	display: block; /* La balise devient de type block. */
+	display: block;
 	width: 150px;
 	float : left; 
 }
