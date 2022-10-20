@@ -1,11 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
-    background: no-repeat url(OREOwallpaper.jpg) ;
+    background: no-repeat url(OREOwallpaper.jpg);
     background-size: 100%;
+    font-family : 'Roboto', sans-serif;
     }
     
     header{ 
-        position: sticky;
+    
         height : 10%; 
         width : 100%; 
         margin : 1rem 0;
@@ -14,19 +15,20 @@ body{
 h1 {
     Position : absolute ; 
     margin : 9rem ; 
-    left : 30% ; 
+    left : 32% ; 
+    color: rgb(7, 7, 206);
 }    
 .logo {
         position : absolute;   
         padding : 3rem; 
-        left : 24%;
+        left : 26%;
         width : 23%; 
         height: auto; 
     }
 
 .png {
         position : absolute ; 
-        left : 48%;  
+        left : 50%;  
         width : 8%;
         height : auto; 
     }
@@ -34,13 +36,29 @@ h1 {
 .questionnaire{
         position: absolute;
         Top : 30%; 
-        left : 25%; 
+        left : 28%; 
 
         
         height: 46% ;
-        width: 50% ; 
+        width: 45% ; 
+	    border : 3px ; 
+	    border-radius : 5px; 
         background: rgba(255, 255, 255, 0.699);
+	
     }
+
+fieldset {
+			border-style : none; 
+	        border : 3px solid white ;
+			border-radius : 5px; 
+}
+
+label 
+{
+	display: block; /* La balise devient de type block. */
+	width: 150px;
+	float : left; 
+}
 
     footer .biscuits{
         position: absolute;
@@ -49,3 +67,6 @@ h1 {
         height: 100%;
     
     
+    
+         
+      
