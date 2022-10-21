@@ -2,6 +2,7 @@
 
 body{
     background: no-repeat url(OREOwallpaper.jpg);
+    background-attachment:fixed;
     background-size: 100%;
     font-family : 'Roboto', sans-serif;
     }
@@ -41,7 +42,7 @@ main {
         left : 28%; 
 
         
-        height: 46% ;
+        height: 68% ;
         width: 45% ; 
 	    border : 3px ; 
 	    border-radius : 5px; 
