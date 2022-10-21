@@ -45,3 +45,45 @@ main {
         height: 68% ;
         width: 45% ; 
 	    border : 3px ; 
+        border-radius : 5px; 
+        background: rgba(255, 255, 255, 0.699);
+
+        color: rgb(4, 4, 175);
+	
+    }
+
+fieldset {
+			border-style : none; 
+	        border : 3px solid white ;
+			border-radius : 5px; 
+}
+
+.identification input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%; 
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #2C3E50;
+  font-size: 15px;
+}
+
+.submit {
+    padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #2C3E50;
+  font-size: 15px;
+}
+
+footer .biscuits{
+    position: absolute;
+    top: 48%;
+    left: 58%;
+    height: 70%;
