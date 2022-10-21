@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: rgb(250, 250, 67);
+    background-image: url(img/logo.png);
+    background-repeat: repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    font-family : 'Roboto', sans-serif;
+    }
+    
+header{ 
+    
+    height : 10%; 
+    width : 100%; 
+    margin : 1rem 0;
+    }
+    
+h1 {
+    Position : absolute ; 
+    margin : 9rem ; 
+    left : 32% ; 
+    color: rgb(7, 7, 206);
+}   
+
+.logo {
+        position : absolute;   
+        padding : 3rem; 
+        left : 28%;
+        width : 23%; 
+        height: auto; 
+    }
+
+.png {
+        position : absolute ; 
+    top: 8%;     
+	left : 28%;  
+        width : 12%;
+        height : auto; 
+    }
+
+main {
+        position: absolute;
+        Top : 30%; 
+        left : 28%; 
+
+        
+        height: 68% ;
+        width: 45% ; 
+	    border : 3px ; 
+	    border-radius : 5px; 
+        background: rgba(255, 255, 255, 0.699);
+
+        color: rgb(4, 4, 175);
+	
+    }
+
+fieldset {
+			border-style : none; 
+	        border : 3px solid white ;
+			border-radius : 5px; 
+}
+
+.identification input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%; 
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #2C3E50;
+  font-size: 15px;
+}
+
+.submit {
+    padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #2C3E50;
+  font-size: 15px;
+}
+
+footer .biscuits{
+    position: absolute;
+    top: 45%;
+    left: 62%;
+    height: 60%;

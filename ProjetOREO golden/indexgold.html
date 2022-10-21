@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  <link rel="stylesheet" href="stylebis.css">
+    <link rel="icon" href="img/logo.png" />
+  </head>
+  <body>
+   
+    <header>
+      <h1>Programme de fidélité</h1>
+      <img class="logo" src="img/LogoOREO1.png" alt="LogoOREO" />
+      <img class="png" src="img/biscuitOREOGOLD.png" alt="OreoPNG" />
+    </header>
+    
+    <main>
+      
+      <div class="formulaire">
+        <form method="post" action="#" novalidate>
+          <fieldset class="identification">
+            <div>
+              <input
+              type="text"
+              name="Nom"
+              id="Nom"
+              placeholder="Nom"
+              required
+            />
+           </div>
+           
+           <div>
+              <input
+              type="text"
+              name="Prénom"
+              id="Prénom"
+              placeholder="Prénom"
+              required
+            />
+           </div>
+
+           <div>
+              <input
+              type="email"
+              name="Adressemail"
+              id="Adressemail"
+              placeholder="Email"
+              required
+              />
+            </div>
+          </div>
+          </fieldset>
+
+          <fieldset class="autres">
+            <div>
+              <label for="Combien"><strong>Combien de paquets achetez-vous par mois ?</strong> </label>
+            </div>
+            <div>
+              <input
+              type="radio"
+              name="Combien"
+              value="1paquet"
+              id="1paquet"
+              required
+            />
+              <label for="1paquet">1 paquet</label>
+            </div>
+             <div>
+              <input
+              type="radio"
+              name="Combien"
+              value="2paquets"
+              id="2paquets"
+              required
+            />
+              <label for="2paquets">entre 2 et 3 paquets</label>
+             </div>
+              <div>
+                <input
+                type="radio"
+                name="Combien"
+                value="3paquets"
+                id="3paquets"
+                required
+              />
+                <label for="3paquets">J'ai arrêté de compter</label>
+              </div>
+            
+            <br><div>
+              <label for="Gourmand"> <strong>Comment avez vous connu notre marque ?</strong> </label>
+            
+            <br><select name="Gourmand" id="Gourmand" required>
+              <option value="" selected disabled>
+                veuillez saisir une réponse
+              </option>
+              <option value="InternetRS">Internet et réseaux sociaux</option>
+              <option value="TVetpub">Télévision et publicité</option>
+              <option value="Autres">Autres</option>
+            </select>
+          </div>  
+          </fieldset>
+
+          <fieldset class="autorisations">
+            <div><strong>Mentions légales : </strong></div>
+            <div>
+              <input
+              type="radio"
+              name="exploitation"
+              value="oui"
+              id="oui"
+              required
+            />
+              <label for="exploitation"
+              >J'autorise OREO à exploiter mes données</label>
+            </div>
+            <div>
+              <input type="radio" name="CGU" value="oui" id="oui" required />
+          
+              <label for="CGU"
+              >J'accepte les conditions générales d'utilisation</label
+            >
+            </div>
+
+           
+          </fieldset>
+
+          <input class="submit" type="submit" value="J'adhère !" />
+        </form>
+      </div>
+  
+    </main>
+
+    <footer>
+      <img class="biscuits" src="img/GOLD.png" alt="biscuitsOREO" />
+    </footer>
+  </body>
+</html>
