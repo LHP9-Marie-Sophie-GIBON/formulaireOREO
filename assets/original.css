@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
-    background: no-repeat url(img/OREOwallpaper.jpg);
+    background-color: rgb(154, 215, 255);
+    background-image: url(img/logoORIGINAL.png);
+    background-repeat: repeat;
+    background-position:center center;
     background-attachment:fixed;
-    background-size: 100%;
     font-family : 'Roboto', sans-serif;
     }
-    
 header{ 
     
     height : 10%; 
