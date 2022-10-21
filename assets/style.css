@@ -1,0 +1,44 @@
+body{
+    background-color : #003087; 
+    font-family : 'Roboto', sans-serif;
+    }
+
+header{ 
+    height : 10%; 
+    width : 100%; 
+    margin : 1rem 0;
+    }
+h1 {
+	color: white;
+    text-align : center; 
+	margin-top: 3rem ; 
+}
+.logo {
+    position : absolute; 
+    top: ; 
+    left: 43%;
+    height: 10%;
+    width: auto; 
+
+}
+
+main {
+        position: absolute;
+        Top : 32%; 
+        left : 38%;  
+
+        height: default ;
+        width: default ; 
+	    border : 3px ; 
+	    border-radius : 5px; 
+        background: rgba(255, 255, 255, 0.699);
+    }
+
+    footer .boop {
+        position : absolute; 
+        top: 50% ; 
+        left: 25.3%;
+        height: 50%;
+        width: auto; 
+
+    }
