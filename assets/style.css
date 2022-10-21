@@ -34,6 +34,8 @@ main {
         background: rgba(255, 255, 255, 0.699);
     }
 
+    
+
     footer .boop {
         position : absolute; 
         top: 50% ; 
@@ -41,4 +43,9 @@ main {
         height: 50%;
         width: auto; 
 
+    }
+
+main img:hover {
+        transform: scale(1.1); 
+        transition: 1s; 
     }

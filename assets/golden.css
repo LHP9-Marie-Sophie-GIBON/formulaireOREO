@@ -51,7 +51,7 @@ main {
 	    border-radius : 5px; 
         background: rgba(255, 255, 255, 0.699);
 
-        color: rgb(4, 4, 175);
+        color: black; 
 	
     }
 
@@ -90,3 +90,8 @@ footer .biscuits{
     top: 45%;
     left: 62%;
     height: 60%;
+}
+img:hover {
+    transform: scale(1.1); 
+    transition: 1s; 
+}
